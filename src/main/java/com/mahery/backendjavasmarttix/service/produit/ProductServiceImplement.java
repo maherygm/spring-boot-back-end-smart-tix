@@ -1,7 +1,8 @@
-package com.mahery.backendjavasmarttix.service;
+package com.mahery.backendjavasmarttix.service.produit;
 
 import com.mahery.backendjavasmarttix.model.Product;
 import com.mahery.backendjavasmarttix.repository.ProductRepository;
+import com.mahery.backendjavasmarttix.service.produit.ProductService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -9,7 +10,7 @@ import java.util.List;
 
 @Service
 @AllArgsConstructor
-public class ProductServiceImplement  implements ProductService{
+public class ProductServiceImplement  implements ProductService {
 
     private final ProductRepository productRepository;
     @Override

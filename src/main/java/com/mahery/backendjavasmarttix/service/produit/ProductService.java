@@ -1,4 +1,4 @@
-package com.mahery.backendjavasmarttix.service;
+package com.mahery.backendjavasmarttix.service.produit;
 
 import com.mahery.backendjavasmarttix.model.Product;
 
@@ -13,6 +13,4 @@ public interface ProductService {
     Product edit(Long id , Product product);
 
     String delete(Long id);
-
-
 }
