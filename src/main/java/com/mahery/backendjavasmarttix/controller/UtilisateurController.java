@@ -1,7 +1,7 @@
 package com.mahery.backendjavasmarttix.controller;
 
-import com.mahery.backendjavasmarttix.model.Utilisateur;
 import com.mahery.backendjavasmarttix.service.utilisateur.UtilisateurService;
+import com.mahery.backendjavasmarttix.model.Utilisateur;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;

@@ -1,10 +1,8 @@
 package com.mahery.backendjavasmarttix.service.client;
 
-
 import java.util.List;
 import com.mahery.backendjavasmarttix.model.Client;
 import com.mahery.backendjavasmarttix.repository.ClientRepository;
-import com.mahery.backendjavasmarttix.service.client.ClientService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

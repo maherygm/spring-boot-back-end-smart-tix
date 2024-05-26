@@ -2,8 +2,8 @@ package com.mahery.backendjavasmarttix.controller;
 
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.mahery.backendjavasmarttix.model.Location;
 import com.mahery.backendjavasmarttix.service.location.LocationService;
+import com.mahery.backendjavasmarttix.model.Location;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;

@@ -3,7 +3,6 @@ package com.mahery.backendjavasmarttix.service.location;
 
 import com.mahery.backendjavasmarttix.model.Location;
 import com.mahery.backendjavasmarttix.repository.LocationRepository;
-import com.mahery.backendjavasmarttix.service.location.LocationService;
 import jakarta.annotation.PostConstruct;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;

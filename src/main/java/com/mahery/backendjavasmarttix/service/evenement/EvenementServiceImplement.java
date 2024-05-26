@@ -1,7 +1,6 @@
 package com.mahery.backendjavasmarttix.service.evenement;
-import com.mahery.backendjavasmarttix.model.Evenement;
 import com.mahery.backendjavasmarttix.repository.EvenementRepository;
-import com.mahery.backendjavasmarttix.service.evenement.EvenementService;
+import com.mahery.backendjavasmarttix.model.Evenement;
 import jakarta.annotation.PostConstruct;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -61,9 +60,10 @@ public class EvenementServiceImplement implements EvenementService {
         return eventRepository.findAll();
     }
     @Override
-    public String delete(long id) {
+    public Evenement delete(long id) {
+       Evenement ev =  eventRepository.getById(id);
         eventRepository.deleteById(id);
-        return null;
+        return ev;
     }
     @Override
     public Path getImagePath(String filename) {

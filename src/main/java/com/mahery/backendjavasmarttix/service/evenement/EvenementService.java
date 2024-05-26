@@ -12,6 +12,8 @@ public interface EvenementService {
     Evenement create(Evenement event , MultipartFile file);
     List<Evenement> get();
 
-    String delete(long id);
+    Evenement delete(long id);
     Path getImagePath(String filename);
+
+
 }

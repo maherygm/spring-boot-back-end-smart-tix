@@ -1,8 +1,7 @@
 package com.mahery.backendjavasmarttix.service.location;
-import com.mahery.backendjavasmarttix.model.Evenement;
 import com.mahery.backendjavasmarttix.model.Location;
 import org.springframework.web.multipart.MultipartFile;
-import java.nio.file.Path;
+
 import java.util.List;
 public interface LocationService {
 

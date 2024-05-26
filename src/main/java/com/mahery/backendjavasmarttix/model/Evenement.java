@@ -1,6 +1,4 @@
 package com.mahery.backendjavasmarttix.model;
-
-
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -29,15 +27,27 @@ public class Evenement {
     private String lieu;
 
     @Column(length = 255)
-    private String longitude;
+    private String address;
 
     @Column(length = 255)
-    private String latitude;
+    private long lieu_id;
+
+    @Column(length = 255)
+    private double longitude;
+
+    @Column(length = 255)
+    private double latitude;
 
     @Column
-    private int prix;
+    private long prix;
 
     @Column(length = 255)
     private String image_path;
+
+    @Column(length = 255)
+    private String price_id;
+
+    @Column(length = 255)
+    private String event_id_stripe ;
 
 }

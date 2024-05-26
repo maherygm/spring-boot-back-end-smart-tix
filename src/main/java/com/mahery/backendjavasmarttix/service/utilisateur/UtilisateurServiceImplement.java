@@ -4,7 +4,6 @@ package com.mahery.backendjavasmarttix.service.utilisateur;
 import java.util.List;
 import com.mahery.backendjavasmarttix.model.Utilisateur;
 import com.mahery.backendjavasmarttix.repository.UtilisateurRepository;
-import com.mahery.backendjavasmarttix.service.utilisateur.UtilisateurService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
